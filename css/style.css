@@ -1377,3 +1377,47 @@ nav.scrolled {
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(180deg, #e6c36a, #c9a24d);
 }
+
+/* ===== CORREÇÃO FINAL MOBILE ===== */
+
+@media (max-width: 900px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-links {
+    display: none;
+  }
+
+  .footer-contact {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-item {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-whatsapp {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-bottom p,
+  .footer-bottom .dev {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+  }
+}
