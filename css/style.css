@@ -752,6 +752,13 @@ nav {
     width: 100%;
     max-width: 300px;
   }
+  .footer-links {
+  display: none;
+}
+.footer-bottom .dev {
+  justify-content: center;
+  width: 100%;
+}
 }
 
 /*localização*/
