@@ -759,6 +759,15 @@ nav {
   justify-content: center;
   width: 100%;
 }
+ .info-item {
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .info-item svg {
+    margin-bottom: 5px;
+  }
 }
 
 /*localização*/
