@@ -1,0 +1,20 @@
+{
+  "name": "Barbosa e Tavares",
+  "short_name": "Advocacia",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#080d13",
+  "theme_color": "#c9a24d",
+  "icons": [
+    {
+      "src": "./img/logof.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/logof.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

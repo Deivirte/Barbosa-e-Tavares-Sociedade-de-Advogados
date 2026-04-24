@@ -1340,3 +1340,24 @@ nav.scrolled {
     width: 300px;
   }
 }
+
+/* largura da barra */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* fundo */
+::-webkit-scrollbar-track {
+  background: #080d13;
+}
+
+/* barra */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #c9a24d, #e6c36a);
+  border-radius: 10px;
+}
+
+/* hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #e6c36a, #c9a24d);
+}
